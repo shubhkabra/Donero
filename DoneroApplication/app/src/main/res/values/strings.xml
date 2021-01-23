@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name"><i><b>Donero</b></i></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="offers">Offers coming in next update! :)</string>
+    <array name="duration">
+        <item>Select Time Limit</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>1 day</item>
+        <item>1 month</item>
+        <item>1 year</item>
+    </array>
+    <string name="welcome_2">23 crore people in India go to bed hungry everyday.\nSource:TOI.</string>
+    <string name="welcome_3">Our app aims to help you help some such needy people.</string>
+    <string name="welcome_4">Click on the \'HELP\' button for directions to use the app!</string>
+    <string name="slide_1_title">Welcome to the DONERO community!</string>
+    <string name="slide_1_desc">We are delighted to have a superhero like you.</string>
+
+    <string name="slide_2_title"></string>
+    <string name="slide_2_desc">23 crore people in India go to bed hungry every day. It’s time for us to change these facts! Source: TOI. Our app will help you provide food to such needy people while getting attractive offers every time you donate!
+    </string>
+
+    <string name="slide_3_title">Your job as a DONERO</string>
+    <string name="slide_3_desc">a.Mark the location of a needy person if you spot someone.\nb. Donate food to any marked needy person near you.</string>
+
+    <string name="slide_4_title">To mark a location</string>
+    <string name="slide_4_desc">Click on the \'UPLOAD\' button and upload a picture of the needy with a description. Tell the needy to wait there as food might be coming for them. You get 10 points every time you mark a location!</string>
+
+    <string name="slide_5_title">To donate food</string>
+    <string name="slide_5_desc">Click on any location on the map and our app will direct you to that location. When you reach the needy, open our forum and upload the picture of the food along with the needy. You get 20 points once that picture is verified by our other heroes!</string>
+
+    <string name="slide_6_title"></string>
+    <string name="slide_6_desc">You can also review other superheroes\' work and get points for reviewing it.</string>
+
+    <string name="slide_7_title">Exciting Offers!</string>
+    <string name="slide_7_desc">You can redeem our offers by going to our offered cafes and restaurants and showing them your points.\nReady to save humanity? Let\'s go!</string>
+    <!--Validation sstrings-->
+    <string name="error_username">Please enter valid donero name</string>
+    <string name="error_mobileNo">Please enter valid mobile number</string>
+    <string name="error_email">Please enter valid email</string>
+    <string name="error_otp">Please enter valid otp.</string>
+
+    <!--Progress Dialog Message-->
+    <string name="dialog_message">Loading please wait...</string>
+    <string name="dialog_message1">Uploading please wait...</string>
+
+    <!--Error Messages-->
+    <string name="error_validation">Please check errors.</string>
+    <string name="error_timeout">Oops! Your Connection Timed Out</string>
+    <string name="error_auth_failure">Oops! Donero Says It Doesn\'t Recognize You</string>
+    <string name="error_network">Oops! Donero Server Just Messed Up</string>
+    <string name="error_parser">Oops! Data Received Was An Unreadable Mess</string>
+    <string name="error_name">enter valid name</string>
+    <string name="error_desc">enter some description</string>
+    <string name="error_pic">please click pic</string>
+
+    <!--Response TAG-->
+    <string name="response_error">error</string>
+    <string name="response_message">message</string>
+    <string name="response_user">userdata</string>
+    <string name="title_activity_offers">OffersActivity</string>
+    <string name="title_activity_forum">ForumActivity</string>
+
+    <!--GPS ENABLE CHECK-->
+    <string name="enable_Location">Enable Location</string>
+    <string name="message_display">"Your Locations Settings is set to 'Off'.\nPlease Enable Location to " + "use this app"</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="cancle_btn">Cancle</string>
+    <string name="msg_enble">please enable</string>
+
+    <!--Signup page-->
+    <string name="title_signup">Donero</string>
+    <string name="title_mini"> Become a Donation Hero</string>
+    <string name="name"> Enter Donero Name </string>
+    <string name="mobile"> Enter Mobile No </string>
+    <string name="email"> Enter Email </string>
+
+
+    <!--HELP WINDOWS TITLE-->
+    <string name="help_title">Welcome to the DONERO community! We are delighted to have a
+superhero like you.</string>
+    <string name="help_title2"> 23 crore people in India go to bed hungry every day. It\'s time for
+us to change these facts! Source: TOI
+Our app will help you provide food to some such NEEDY PEOPLE of your city
+while getting ATTRACTIVE OFFERS every time you donate!</string>
+    <string name="help_title3">
+            Your job as a DONERO
+            a.     Mark the location of a needy person if you spot someone, OR
+            b.     Donate food to any marked needy person near you
+</string>
+    <string name="instr1">   Your job as a DONERO</string>
+    <string name="instr2">           a.     Mark the location of a needy person if you spot someone, OR</string>
+    <string name="instr3">    b.     Donate food to any marked needy person near you</string>
+    <string name="instr4">HOW TO DONATE FOOD</string>
+    <string name="instr5">Some other time, if you have extra food at your home, click on any
+location on the map and our app will direct you to the needy at that
+location. When you reach the needy, click a picture of them with the food
+you brought and it will be uploaded to our forum. You get 20 points every
+time you donate food!</string>
+    <string name="instr6"> You can also review the pictures that others have uploaded to the
+forum, and you get points every time you tag a picture with yes or no.(Yes
+for appropriate and No for inappropriate)</string>
+    <string name="instr7"> You can redeem our offers by going to our offered cafes and
+restaurants and showing them your collected points.</string>
+    <string name="instr8"> Ready to make a change? Let\'s go!</string>
+    <string name="response_point">points</string>
+    <string name="response_redeem">redeems</string>
+    <string name="response_doneroPnts">points</string>
+    <string name="response_beggar">beggars</string>
+    <string name="response_forum">forums</string>
+    <string name="title_activity_redeems">RedeemsActivity</string>
+</resources>

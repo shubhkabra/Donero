@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="doneroapp.globulaertech.com.doneroapplication.activities.SplashScreen">
+<LinearLayout
+    android:background="@color/background_window"
+    android:orientation="vertical"
+    android:id="@+id/lin_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+    <TextView
+        android:id="@+id/name"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Donero"
+        android:fontFamily="cursive"
+        android:textSize="70dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Become a Donation Hero!"/>
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:id="@+id/icond"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/superhero"/>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Loading..."
+           android:textStyle="bold"
+           android:textSize="20dp"
+           android:typeface="serif"
+           android:textColor="#ffffff"
+           android:gravity="center"
+
+           android:layout_marginTop="50dp"/>
+</LinearLayout>
+</RelativeLayout>

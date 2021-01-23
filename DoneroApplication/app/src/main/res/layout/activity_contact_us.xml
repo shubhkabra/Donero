@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cntct"
+    android:layout_height="match_parent"
+    tools:context="doneroapp.globulaertech.com.doneroapplication.activities.UploadActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#90ffffff"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#900"
+                android:textSize="20dp"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shubhankar "/>
+            <TextView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#900"
+                android:textSize="10dp"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click On Icon To View Profile "/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:id="@+id/fb"
+                android:src="@drawable/face"
+                android:layout_width="40dp"
+                android:layout_height="40dp" />
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textColor="#900"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanskriti :- srathi7@gatech.edu"/>
+            <TextView
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="15dp"
+                android:textColor="#900"
+                android:typeface="serif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OR"/>
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textColor="#900"
+                android:typeface="monospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="donerotheapp@gmail.com"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
